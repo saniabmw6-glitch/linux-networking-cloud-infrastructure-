@@ -1,0 +1,62 @@
+Networking Documentation
+
+Project Environment
+
+- Cloud Platform: Amazon Web Services (AWS)
+- Service: EC2
+- Operating System: Ubuntu Linux
+- Network Access: SSH
+
+1. IP Addressing
+
+IP addresses identify devices on a network.
+
+Commands practiced:
+
+ip addr
+hostname -I
+
+- Private IP: Used for communication within the AWS network.
+- Public IP: Used to access the EC2 instance over the internet.
+
+2. DNS
+
+DNS (Domain Name System) translates domain names into IP addresses.
+
+Commands:
+
+ping -c 4 google.com
+nslookup google.com
+
+3. Network Ports
+
+Port| Protocol / Service
+22| SSH
+80| HTTP
+443| HTTPS
+3306| MySQL
+8080| Alternative Web Service
+
+4. Listening Ports
+
+Command:
+
+sudo ss -tuln
+
+This command displays network sockets and listening ports.
+
+5. AWS Security Groups
+
+Security Groups act as virtual firewalls for EC2 instances.
+
+Example inbound rules:
+
+Type| Port| Purpose
+SSH| 22| Secure server access
+HTTP| 80| Web traffic
+
+SSH access should be restricted to the administrator's IP address.
+
+Learning Outcomes
+
+Practiced basic networking commands, IP address identification, DNS resolution, port inspection, and AWS Security Group concepts.
