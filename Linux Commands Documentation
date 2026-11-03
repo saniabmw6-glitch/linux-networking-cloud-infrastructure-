@@ -1,0 +1,38 @@
+Linux Commands Documentation
+
+Environment
+
+- Cloud Provider: AWS
+- Service: EC2
+- Operating System: Ubuntu Linux
+- Access Method: SSH
+
+File Management Commands
+
+Command| Purpose
+"ls"| List files and directories
+"pwd"| Display current directory
+"cd"| Change directory
+"mkdir"| Create a directory
+"touch"| Create a file
+"cat"| Display file content
+"echo"| Write text to a file
+"cp"| Copy files
+"mv"| Move or rename files
+"chmod"| Modify file permissions
+"ls -l"| View file permissions and ownership
+
+System Administration
+
+Command| Purpose
+"whoami"| Display current user
+"ps aux"| View running processes
+"top"| Monitor system processes
+"systemctl status"| Check service status
+"ip addr"| View network interfaces
+"hostname -I"| Display private IP address
+"ss -tuln"| View listening ports
+
+Learning Outcome
+
+Developed practical knowledge of Linux command-line operations, file management, permissions, and basic server administration.
